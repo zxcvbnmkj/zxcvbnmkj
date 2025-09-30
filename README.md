@@ -1,5 +1,8 @@
 ## Hi there 👋
+## 📊 GitHub 统计
+![ GitHub 状况统计](https://github-readme-stats.vercel.app/api?username=zxcvbnmkj&show_icons=true&theme=radical&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
+![ 语言统计 ](https://github-readme-stats.vercel.app/api/top-langs/?username=zxcvbnmkj&layout=compact&theme=gruvbox)
 ## 🛠 技术栈
 ```python
 class AIEngineer:
@@ -68,10 +71,6 @@ engineer = AIEngineer()
 print("🎯 技术专长:", engineer.describe_experience())
 print("🚀 技术栈:", engineer.get_tech_stack())
 ```
-
-## 📊 GitHub 统计
-![你的GitHub统计](https://github-readme-stats.vercel.app/api?username=zxcvbnmkj&show_icons=true)
-
 ## 🎯 核心技术领域
 
 **🤖 深度学习与AI工程**
