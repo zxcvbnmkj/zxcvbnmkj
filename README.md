@@ -8,45 +8,42 @@
 class AIEngineer:
     def __init__(self):
         self.skills = {
-            # 深度学习与AI工程
+            # 深度学习
             "deep_learning": {
                 "frameworks": ["PyTorch", "TensorFlow", "Keras"],
-                "model_architectures": ["CNN", "RNN/LSTM", "Transformer", "BERT系列"],
-                "training_optimization": ["混合精度训练", "梯度累积", "学习率调度"],
-                "distributed_training": ["DeepSpeed", "Hadoop", "Spark", "多GPU并行"],
-                "model_compression": ["量化(INT8/FP16)", "剪枝", "知识蒸馏", "模型轻量化"]
+                "model_architectures": ["CNN", "RNN", “LSTM”, "Transformer", "BERT"],
+                "training_optimization": ["混合精度训练", "梯度累积", "学习率调度策略"],
+                "distributed_training": ["DeepSpeed", "Hadoop", "Spark"],
+                "model_compression": ["量化(INT8/FP16)", "剪枝", "知识蒸馏"]
             },
             
-            # 机器学习与算法
-            "machine_learning": {
+            "learning_strategy": {
                 "learning_paradigms": [
                     "零样本学习(Zero-shot)", 
                     "少样本学习(Few-shot)",
                     "半监督学习", 
                     "弱监督学习",
-                    "预训练-微调Pipeline"
                 ],
                 "advanced_techniques": [
                     "检索增强生成(RAG)",
                     "提示工程", 
                     "模型微调策略",
                     "多模态学习"
-                ],
-                "model_deployment": ["ONNX", "TensorRT", "模型服务化", "边缘部署"]
+                ]
             },
             
             # 全栈开发
             "fullstack_development": {
-                "frontend": ["Vue生态系统", "Node.js", "TypeScript", "响应式Web开发"],
-                "backend": ["FastAPI", "SpringBoot", "Flask", "RESTful架构"],
-                "databases": ["MySQL", "Redis", "SQLite", "SQL Server", "数据库优化"],
-                "devops": ["Docker", "Linux系统运维", "CI/CD", "Nginx", "系统监控"]
+                "frontend": ["Vue", "Node.js", "TypeScript"],
+                "backend": ["FastAPI", "SpringBoot"],
+                "databases": ["MySQL", "Redis", "SQLite", "SQL Server"],
+                "devops": ["Docker", "Linux", "Nginx"]
             },
             
             # 编程语言
             "programming_languages": {
-                "primary": ["Python", "JavaScript", "Java"],
-                "secondary": ["SQL", "Shell", "HTML/CSS"]
+                "primary": ["Python", "C", "C++", "Java"],
+                "secondary": ["SQL", "Shell", "HTML", "CSS"]
             }
         }
     
@@ -73,18 +70,17 @@ print("🚀 技术栈:", engineer.get_tech_stack())
 ```
 ## 🎯 核心技术领域
 
-**🤖 深度学习与AI工程**
+**🤖 深度学习**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-Expert-red)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Advanced-orange)
 ![DeepSpeed](https://img.shields.io/badge/DeepSpeed-Intermediate-yellow)
-![模型压缩](https://img.shields.io/badge/模型压缩-Expert-red)
+![Transformer](https://img.shields.io/badge/Transformer-Expert-red)
 
-**🔬 机器学习算法**
+**🔬 学习算法**
 
 ![少样本学习](https://img.shields.io/badge/少样本学习-Advanced-orange)
 ![RAG](https://img.shields.io/badge/RAG-Intermediate-yellow)
-![Transformer](https://img.shields.io/badge/Transformer-Expert-red)
 
 **💻 全栈开发**
 
@@ -93,16 +89,17 @@ print("🚀 技术栈:", engineer.get_tech_stack())
 ![SpringBoot](https://img.shields.io/badge/SpringBoot-Intermediate-yellow)
 ![Docker](https://img.shields.io/badge/Docker-Advanced-orange)
 
-**🗄️ 数据库与运维**
+**🗄️ 操作系统与数据库**
 
+![Linux](https://img.shields.io/badge/Linux-Expert-red)
 ![MySQL](https://img.shields.io/badge/MySQL-Expert-red)
 ![Redis](https://img.shields.io/badge/Redis-Advanced-orange)
-![Linux](https://img.shields.io/badge/Linux-Expert-red)
 
-## 💼 实战经验摘要
 
-- **大规模模型训练**: 使用DeepSpeed和分布式策略完成亿级参数模型训练
-- **边缘AI部署**: 通过量化和剪枝技术，在资源受限设备实现模型高效推理
-- **RAG系统构建**: 设计并实现检索增强生成系统，提升LLM应用效果
-- **全链路交付**: 从算法设计到前后端开发，完成多个AI应用完整交付
+## 💼 实战经验
+
+- **大模型微调**: 使用DeepSpeed和分布式策略完成参数过亿大模型的微调
+- **模型部署**: 通过量化和剪枝技术，在资源受限设备实现模型高效推理
+- **RAG系统构建**: 设计并实现检索增强生成系统，提升LLM应用效果，减少幻觉
+- **前后端开发**: 从算法设计到前后端开发，将模型封装为能够可视化使用的系统
 - **性能优化**: 数据库优化、缓存策略、模型推理加速等系统性调优
